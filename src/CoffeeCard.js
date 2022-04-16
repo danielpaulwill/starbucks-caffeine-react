@@ -1,8 +1,14 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 function CoffeeCard({ coffee }) {
-  // const [favButton, setFavButton] = useState(false)
+  const [favButton, setFavButton] = useState(false)
   const [textDisplay, setTextDisplay] = useState('none')
+
+  console.log({favButton})
+
+  useEffect(() => {
+    setFavButton(coffee.favorite)
+  }, [])
 
   function handleMouseEnter() {
     setTextDisplay('block')
@@ -10,6 +16,21 @@ function CoffeeCard({ coffee }) {
 
   function handleMouseLeave() {
     setTextDisplay('none')
+  }
+
+  function favButtonSwitch() {
+    setFavButton(favButton => !favButton)
+    fetch(`http://localhost:3000/coffee/${coffee.id}`, {
+    method: "PATCH",
+    headers: {
+    "Content-Type": "application/json",
+    Accept: "application/json",
+  },
+    body: JSON.stringify({
+    favorite: (coffee.favorite = !coffee.favorite)}),
+  })
+  .then(response => response.json())
+  .then(data => console.log(data.favorite))
   }
 
   return (
@@ -31,8 +52,9 @@ function CoffeeCard({ coffee }) {
         <p>{coffee.sugarContent}g</p>
         <button 
           className="favButton"
+          onClick={favButtonSwitch}
         >
-          {coffee.favorite ? "♥" : "♡"}
+          {favButton ? "♥" : "♡"}
         </button>
       </div>
     </div>
