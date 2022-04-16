@@ -11,60 +11,48 @@ function App() {
   console.log({ filterValue })
 
   function initFetch() {
-    console.log('initFetch confirmed')
     fetch('http://localhost:3000/coffee')
     .then(res => res.json())
     .then(data => setCoffeeData(data))
   }
 
   useEffect(() => {
-    coffeeCardFilter()
     initFetch()
+  }, [])
+  
+  useEffect(() => {
+    coffeeCardFilter()
   }, [filterValue])
 
+  // Sets filterValue to the selected dropdown value
   function handleSelect(e) {
     e.preventDefault()
     window.scrollTo(0, 0)
     setFilterValue(e.target.value)
-    // initFetch()
-    // coffeeCardFilter()
-    console.log('handleSelect confirmed')
   }
 
+  // Handles setting the coffeeData based on the filterValue
   function coffeeCardFilter() {
     if (filterValue === 'start'){
-      console.log('all good')
+      initFetch()
     } else if (filterValue === 'favorite'){
       favFilter()
-    } else console.log('not ready yet')
+    } else {
+      otherFilter()
+    }
   }
 
   function favFilter() {
-    let coffeeArr = coffeeData.filter(coffee => coffee.favorite === true)
-    setCoffeeData(coffeeArr)
+    fetch('http://localhost:3000/coffee')
+    .then(res => res.json())
+    .then(data => setCoffeeData(data.filter(coffee => coffee.favorite === true)))
   }
 
-  // let filteredData = coffeeData.map(coffee => {
-  //   if (filterValue === 'start') {
-  //   } else if (filterValue === 'favorite') {
-  //     let favArr = []
-  //     coffeeData.map(coffee => {
-  //       if (coffee.favorite === true) {
-  //         favArr.push(coffee)
-  //       }
-  //     })
-  //     setCoffeeData(favArr)    }
-  // })
-
-  // function favoriteSelect() {
-  //   let favArr = []
-  //   coffeeData.map(coffee => {
-  //     if (coffee.favorite === true) {
-  //       favArr.push(coffee)
-  //     }
-  //   })
-  //   setCoffeeData(favArr)
-  // }
+  function otherFilter() {
+    fetch('http://localhost:3000/coffee')
+    .then(res => res.json())
+    .then(data => setCoffeeData(data.filter(coffee => coffee.coffeeCategory === filterValue)))
+    }
 
   return (
     <div>
