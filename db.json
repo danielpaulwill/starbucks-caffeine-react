@@ -8,7 +8,9 @@
       "sugarContent": 0,
       "image": "https://lh3.googleusercontent.com/xDriIPnIuYkikZhj1aj1htbBrUKGi-R_6r5PMe0UvhU3LonTLwc8SQYH-S-ikxiCHO_uhZs7qOFsft5rMt9q_HilSAyc0E9lFh3niPwR7FO9kCZmCI1qOeHM4EAE1XF16Ry9aN-rp4b8s5aRHFhgGRr130Oxp4NnB0kygfhM0MHo8F3KDZI0eWp1K01wDFYlMf2K2NmQPoiItBFyE6zCUGT822yz4jp1AimJvkb68MamB8o2rc-4TaxRWnwNdnRl1ONnaF-p7L0sgGnmjNRtX0auzg8ecUb-YK9viRXUkXtG9DjCSa_BhJhVA9btac25Jkwwm_i2H_RncH1YVzJkAlg1c0qb6g4HdfE3--Z0tlljBVxU6wsT2N5QSBff_770PnLpXUIpFzFDO9mhNIbYnoXMJbQH6U8LnJtbonCDBxgoYBNr0b210gCSkTmDAtiUywk34E1sRPMLSQiuBWlmIh9Y9xgzGzXL8vONIQJyQ0DZCIUvMRVu3rJU-208q7AZgo0V_UEKq12eVRRayYGYVvNOGt9WVScPGW-FLK41o_TJR8IqyzxjdnTvzM2fUr4cEnztqgZwo1uGo21DXyfsN9SO-cNpHf8ydA0RXtl6XoQDP3gWD0FlsyFYUDu6cyk90nhs2tbvmdze2x0HE1AF4arID5Tc8MzH2AF3mn2dw-meWAL_ZQBNhbz2KJPW-l4r-k2ptKbQqF-nNzt2hR9WU0wc=s250-no?authuser=0",
       "favorite": true,
-      "coffeeCategory": "icedCoffee"
+      "coffeeCategory": "icedCoffee",
+      "price": 4.99,
+      "store": "Target"
     },
     {
       "id": 2,
@@ -18,7 +20,9 @@
       "sugarContent": 0,
       "image": "https://lh3.googleusercontent.com/OImggoz602VbUMkTiT87T1OI45G2f6xacddj65-PtCJ5LB2DTHrIPVioTq0vm0GacTDR9PHFtVjBOesGf_MHvAxr7ubw8XTZBWBRpcjc_Z3f7vwr17NfpQpXgEuD49joCQPC1H8gl-q2UObrrUxE3r6CeP5uu1n_6y3vAgkdOblvudTREZtyk34kMAl7q27NSkArTvEtQH--cJxq0JmPOHfqBisaXsEEGwr_KzunSU66J2xbVJ-74iSZgXrEjK0aaxoDnReqTm_0vWIv3GRZluV78rXBVQf5FzE20-EWZbfcwab1HFT7eF7yc0HW5jikydKJeaZl_01orOusF9Iw2botpns-tlVeLXih1WWgEPSNANIm_nqcUjGtDNhl0dshX96I_T6KytBornn2px43m63WhKsCzim1sgO0FIf5rOmLmAvbi3xjNwlcs1yIrl0N-j8gx0f4GQnJfYNQw7fWudbkAJmoGri-rb43ARLa4gPv0zDefuJYoelzq4Ef0NZkVPdubObbnzd_jH7FbKZ--nRJPo_w8ib0mzAwcKlWFipPG0yVGusVP_1uGzDg1UmaLzU7cWXJAqE0UPuryz5IU6jZwYP_Tr0mvynawEI9CwjrOfYyiPAYbFTKxcBkPnH4mjw7O_DfR4EbBkywGx7oeyv_LGUq3dgdYZtNixl0yJVl0zqcuPts4sHDRXTgbrYR-fLIpcZoEkxJyHNLJ6LXG3qb=s250-no?authuser=0",
       "favorite": false,
-      "coffeeCategory": "icedCoffee"
+      "coffeeCategory": "icedCoffee",
+      "price": 4.99,
+      "store": "Target"
     },
     {
       "id": 3,
@@ -28,7 +32,9 @@
       "sugarContent": 12,
       "image": "https://lh3.googleusercontent.com/VKOdV1VL_MOcHojpU44hk0iEqZeEVDoRUtr-zhjXoQzA3vih2ez3vu89sz5OBLbN-1JODaQXZIvMH2gtR5JAPewdGSFKS3ooexMWAGHlH_xNVzWw_pUgmuQfqsujUi1dFHKc-nDd2XJFdJclXdqB2-Ue4FLajrxuqfFIKBeFCg4WKHEg0rB3aTHrFs4qeMoofgAFbmwIjrHIphCkbFTRzTHC6m-2PY2pO_GpRcpxE_9OpprlShbeUi31_DJNe2cKoFiXh34pKHPbrOg4sHwQ1F4bhWDOrXm_xCkebYF_F3x2fMmJaLq0hr1uZq1lEHiALuTGpqp-SFPhlm6pJOdlN1TCtV94gt2j3U1AndufXXmid-kN0jZJ6u6VvfyIV9NbWePUps-Gzwc9r5YSTnTDyvsgp7Db0cJTIKzu2g15mxTQBFA1b_H4Ydcq64f0cXgCSPR_40QvOK6ozM0dI2MfANZeLKeapAW4H7zFxRLfiQj7PmuhFsmJqPMOg5_nhEz-QRw_rRg7FWsebeKLhooiLvVhkYHACdPfl0JXDZJ2DJklwcvwG7d0J0cuE-ACqSFmwSGYxrr7vf72AUrH2QnS_GuXZtut975sNru3gnig0NCohydxyOtlLlxwTU37jxvezwuJrxVibaqFQz22KACVEb9LhaKInbvXti0WICL16XmOIz3ij95E6QIj7TS_KCXFk95rHRA_0OY0K8HSW7Ksy1kD=s250-no?authuser=0",
       "favorite": false,
-      "coffeeCategory": "icedCoffee"
+      "coffeeCategory": "icedCoffee",
+      "price": 4.99,
+      "store": "Target"
     },
     {
       "id": 4,
@@ -38,7 +44,9 @@
       "sugarContent": 0,
       "image": "https://lh3.googleusercontent.com/b2Jh1JAT3XHj8dFrM0Ocs4x3tTrMxPd4_3w7cJTkVhVNgbCV_DQeM6K7fkImi9KFE86rqyRmqp-upJZBYrTvh-pg6AmInU3J6LeADW_EYvTywmaj4jEZ9eAI0VZ0sQGomiLa_354vMsCkz0FA2UkONZQ06ZXoRt8eUH3v2x_ItVqTSgrdUdlSHORY30izdaFjhnRKoFPUzxUzwm8_fSHMePnpK8LyTL80dav1OtpaDCxixRSSBn_NruTNaCHxkRoxa-QuOkRCo5Yn8MESAzdG6xwpuIlyawkNQuJo9S8SoRYbhCv3ot4w8y-51XfPHVM-bZvtXleG-o6POF2mfSFVmc21WR2G5qKLGCUjBHzzxwfwduCU5YchhcdoN3WIkEfVZxNqPOlLeHtTEUWhs-EwAWJL9fzJQOptHj1FKhAixjf7OLrv0dlsr9wUk7g5sKVTZ6D3MnaJOOSAUZ-6eyBpOIHUcbAr19E8A65GNOcxkiD7fBmgSXqTcIyMbAD7O0iKRgKY7-NTeqvKLz703xomHTX9CB5iRZsPAyZMnV3ohj3oDPQb3vqUhMsSjqwUBLlF3P-9zsfcRLCTiIpoGmlHfIGiqiqQvi893YUJL3w-DB2AaPB074phD8gBPQbVO-VNbTtfXGI7Nii82CeSzs_b0m7loPo-XrKhZ2r4iYZk0W5G2Ra26O6sV2-Pwv8WCBRFRbgk8vyYUGIinOIUKGNym-t=s250-no?authuser=0",
       "favorite": false,
-      "coffeeCategory": "icedCoffee"
+      "coffeeCategory": "icedCoffee",
+      "price": 4.99,
+      "store": "Target"
     },
     {
       "id": 5,
@@ -48,7 +56,9 @@
       "sugarContent": 46,
       "image": "https://lh3.googleusercontent.com/HRMql8vpU6otJEeIbGNHSDZraUh-y-H5pBrKFuPyxsRNz7RO_g4JTpHkYsAdrBUhFOjGGxSoBqcKi6UlKNN31K8N-j2vglYkQb5mnqAHLQ95yG2gzLi0xCwI9NNatvY5Mq67nn6ZYeYz8JpGijAd2lHbXIJkQKaD2rZtQS3CoHgUNCjY6aS7QMV6eOmYEVG0TH_j2t4RaQBYo1A6dbRyK3DqXCQlwY1bmfvdvXOzyY32R22HhU1WT0NZZvPnqxUIGaXI39vVwj_3y6xg9vBMhstj0AnKB8sxQ_DGXwOMztx0mloylpAOuxaUnLj_xnhbJ-Fvt3YR4XvHVEw2tG8MNEsfk4AwOPzJmAep0DQqxWbrCU8ZYugBEHafHXCYKvj66zjWGEvLw6DMmbLbQ3CovoMdABE8mg3D-zZcb-aevFeGUgHw8rh690Uk3kZQQos37ZXsFVrstjhOVeLgaMa_KD8tpOYdDTPRpf-u-IkDn4dRMoG9usa1QMRe4bSrpBhmRX7Vm5He85a52UmvmnU2pH4crYDcrvVThIKJfFqayVM9NQmJf630iSJmZdf5R-rO13s-w6H4LEQNW4VlDEJGn0nGsKkIlNGXJO0-vU55gjKbdEAj_ynel1hr6sr0AEhbMx_Fydd5yLTGgnGjjODFNisJrLV6k-1rTgTYu-SNQnyI1xQv82HdS5-Cs4nbNYW4_WSxnY1TBACCCc4qDXCebpgU=s250-no?authuser=0",
       "favorite": false,
-      "coffeeCategory": "frappuccino"
+      "coffeeCategory": "frappuccino",
+      "price": 3.29,
+      "store": "Target"
     },
     {
       "id": 6,
@@ -58,7 +68,9 @@
       "sugarContent": 32,
       "image": "https://lh3.googleusercontent.com/NA6b8RvTXJ08Jsy54jmWM4UKgAmFw9K_Drp7hstIih8dLcI4OZrdybgzMFmH6jR3a1c-UcoW1TN2ixN-f6hjkAGCtsI1VWWwgBit_jIb27lXEZHamToS-BaYYsmnpP4NbZE53Iq9yK8nG4JBkkP3wJRwBEmNrYRz1V5DgzH3-ay-LkqXsb9I0VEo76YY7tBRjAZMKGDzuApI-S0uXcxneqE7nrt34aCc7y9Bvk4ukKB7BhauKovvRKOwwhMViv6B7KGqqOT_2FnDl7mOm6b8KweC7Ly9d-fT7ZyDO6lEl0pgnaiPS_7LGjzXmT2qoH8nGDS4zL1R2h8LYYhkKkIgpIi9hvGxIJPHcBMkq4wupSeXYNfFuXd204DcDmh4ehzDp6Lsq1WdX8hvy63-waCe3ol_5ImR9KFj5LPM2VKTNViHldYl05GEbBI9-fBk5jFUu5tt_2RHnjmvzUcbYYsuMyjfgQf4g-5xpDlVZabtFsYAyt77jAr9qD25ooYGAKEMRMB7UkOCIomVzXyW5lYInKF7O23rwT7KceMDFt6lR0BSsmATgH3fQ6k2uVmG5xflPr39u_4C2uoDspaC2IuWO_jMA_gRMWQHuV6lt3tJcVwLRzjaWRzyo9Zp49TgNpeYuYQHwJaTWAoQtjuIJsRzGFSMv1D1D-FoSs6yOB45YsFN3W35WoYWDokQx045lTqe9UopYMI9BM6zbBMnkQD9bm2q=s250-no?authuser=0",
       "favorite": true,
-      "coffeeCategory": "frappuccino"
+      "coffeeCategory": "frappuccino",
+      "price": 6.59,
+      "store": "Target"
     },
     {
       "id": 7,
@@ -68,7 +80,9 @@
       "sugarContent": 46,
       "image": "https://lh3.googleusercontent.com/BMHwZq31ffjnbbPhaz6sZy3O-SAzVCk2y5Cy9-oRXGTit319vv4QK1nMypEv1bjtzpzUXBtHe-BcBlebT0z5mg6EKuebypW3H-4ZsbdZVwt3ymC59V1B9o0KqOWa9-v3L1iI5C_jlZSrtcRrUECUi7YNWHuTSPMZaWSZNzPAUn2CVZhWXqG6EffTsGn1YMsMQqo3413USOW3REb4WTWEtJ78ssjJl0jxzsXUzVxtBVBX9XkRWMCLfH0LyoY1GCxfV-j9sipkjIrR_hTBvwKwZ1nK05N9X1LWgt49ggjK3vQ1TZ9L_Jf-nftArESe4eQkEb64nR66NykgwSmOyKVa5c30vI5qZjjWc4pExh-FdOy5C3Wv3xcWO3WP-HRzW2AZh3vuOsrUIcTeM3rHQFolI4emmLtPqEF8UP0Vt6ibF7cbBXBxDkcehZsIQ1ZAhJ0VqrST-YhXwe_vvWNI4l2OLqvMG7yp-D9t0A8VzvWLJhyG6F4LoqYl9wCumSep_3W_DLViukmhJwczHU2gjUwM8pAihxqIkLk35MBhrjfRuVSGBfh12HAGQ4bUmMROcT826Jh_7etyooeBPKAEjE-lVsTLdV-TGRfd2XI6hKSIEuKI5oRTvE9QE2j2MfA8my-FfClX7QGFxHyBx0rc1ZpYMqPCuH6jr8m4bvHrN_aI-FJSUTQnm7I8F91ZzTGDvtgvi541wNwywOHkkWdJUASXOdZy=s250-no?authuser=0",
       "favorite": false,
-      "coffeeCategory": "frappuccino"
+      "coffeeCategory": "frappuccino",
+      "price": 3.29,
+      "store": "Target"
     },
     {
       "id": 8,
@@ -78,7 +92,9 @@
       "sugarContent": 32,
       "image": "https://lh3.googleusercontent.com/5Z8Jx-szrFaPcvIPjFT_RHnvb_Ed7Sh0JzcoetKWxihwTbW1v4BTPpfZRpIi9lgHejhlhXilFDgObYeiMtAwIR6NTyI0JY6OYXscOTq1f9QIP2_0CE1igVeL1SWle89mord-5LxA0aKkkgNWGrvDbedY03KP-vCjBsPSX09c1njSgwDivy8PcrvYIACThmXrLPSNqtmeDVzCLYlQJ8YJ1pfqgvKLXnZ2-HleWBXrbplsQaUkHXKhh1_3A2sLC3VCmKtdek53UyuKYDIS-FfI1G0y4zUXdgiPRj9Jcz-enhsgi-0G2bMM5MBV94F3hGMgrMFwfnl4TuEXQV7ltRpKHgHauZO8IAAnwGk4Q49wwM7Pzo7Iod7iiZZ5oqolsiyMVJ1IPUfyIBtE394Q4gu1H10o4XOhjkBmkErfuhnhSqN-JH0obVtQ1V0BLIGTpfqu8tZIguqHEfxm_HYm8BsfhaSAjZwHJwn1JYclmC_NjhUSa6zwMBKgUaGqqpeqR7wlTJqHiCc_Js2xXPI38AWiud3XeHkoMg-laXdFy4rIYGVSs53-Szwp_6yGIp0z94vVSVXu_a6pwACBW95ZLRY7THVGmxyLjr-YW1321avoIcyg5xkKdw0WmKgAHbqGf5OQ8qf3eUu7WsfbpVAgs4In8YXzfATCL_CAPesNAAVxooSO10zlpengFwRt1mk11EiOeMjCbQ2P-DKe44RJIF5l1zxu=s250-no?authuser=0",
       "favorite": false,
-      "coffeeCategory": "frappuccino"
+      "coffeeCategory": "frappuccino",
+      "price": 6.59,
+      "store": "Target"
     },
     {
       "id": 9,
@@ -88,7 +104,9 @@
       "sugarContent": 47,
       "image": "https://lh3.googleusercontent.com/t6eUB0pTmxCKmaSMliAd0YFON_50rn2oqJp65sFipLRdWn5LI9KP4r66EZTnp_hA0v0ZgmN2xaGT1_eZMklv8i85-74X2cf0ICM9Ocu9Zu4Bv5ualhChx5TmUjC0pNOh7nXghgMdvwh7rnMxwA71ZpLsCIN_1hdycRUh_pNBVQvJu1yWs26O-qwQsKUaG5XJ0KVk-u3yEHL2BJQ7GsH4ea5grwSg8bqwv9R4T_WXM1WOrP4tQ6H74z1W8UB9mC6doMMTXyD6ppjb5C6wTx6ZcScL7AHrEU1Hbt858LSns7Evx8PJ615YScn-Ipf_o7su5LFc9Edrk2ujt-Z0KH3_Ts2Pxyg__8D_d8hqhjxJQDfa8EhygDQLRtZru6hxCl_TgADTYq4rC5gKSLa3ju2UWLu9Re17wSKK7GwHr9_LXCbl4EASzt3ZnN12iheps_-pdW3YM6zIg0wHyKii3KwkKSUOtp8nudUjgnSbDhB943H5VL0_CwEr0vfHDx796FRYfzUhmW8jY9AnePknfRszrnl2K1xhg16I0B4Q69kK6FitWmQOTr0vf2TwQLVs_r79S8UQ_F72cTRzQ7FQrxhjvdEA-v1uaAJvmQT2p57tN92ygX-1mEfEWDyTo0VR2tbFg48VSTGKmtSdg1-jkGL28uSWL1eYztOoIOUOFatBgbZBS_8jFujDPe57b6rvggOMuZRY03_DrLaxPavowMufG68H=s250-no?authuser=0",
       "favorite": false,
-      "coffeeCategory": "frappuccino"
+      "coffeeCategory": "frappuccino",
+      "price": 3.29,
+      "store": "Target"
     },
     {
       "id": 10,
@@ -98,7 +116,9 @@
       "sugarContent": 33,
       "image": "https://lh3.googleusercontent.com/1So8b0-bLgyhm0CQw0AyhsEYCu13xVVOV44wz0-TcSaB94e8mBzc1ew_85Lpz8RWMNh9Z2-lTBfzmatnovBD5glogZo6BNP6wHj5M5l3-bJQqB47RcSZQcNxqgU-KJKFb8OYMTjqZU6bl9B8RvNcF2-p1i0mVEfpXmrdv8GLEmIJ65bWVXQ50rIwGqdRa-81yugZsfQRS5QrNqc2Ypr_IYcJMriBPfW4kqK2N8fGNtkNxfVgRBFmjWmmujwlBlLjcekuXshxx02P3LFQmCJUBvvciJVK4V7X8V7xv5jUShZcqwUQjWaJqwOxx3PahwB0jgao5X34mD1RafHjG6jN_LT31NTGh94-uaiJSmckA4wQVADVe5IuLXSz-P_YrMh85tHA6fi3kcv_77VMj0YYa1_yLAvcKxK8DnyaHd6dteSeMrrcJOsLXCvjSwDvL-PmAHxcwD51U7x4YQgbeGY1QnNTgpjcRM2cvmfgLMKCvfxwBXBclGf-valD_TlfnR_Ew7uHXaU5RFUzaaMrvVEexYTcto4rmimr0Z6feJM0uW3NaSTdCugWzrhbTKOQkRa5v96O45-8QXwjHK_qsUutHQ_YSQu7EJjuW0cPk82HWO3gS10hjD7BJjWES2SJr_MvcqCP8MV2YBvHaUGExemgqOOpkpJvyGB-WjacxeSbKM26eyh4ahFA2NC3IXAt_Go7T-nOAJbGuzeKR4bCKxamZMkQ=s250-no?authuser=0",
       "favorite": false,
-      "coffeeCategory": "frappuccino"
+      "coffeeCategory": "frappuccino",
+      "price": 7.99,
+      "store": "Kroger"
     },
     {
       "id": 11,
@@ -108,7 +128,9 @@
       "sugarContent": 46,
       "image": "https://lh3.googleusercontent.com/NinYQYVZXzVbKltaaqXxy6P1D5eEIMwa0bWpr4APX7Ny3gq8KK_VPxXieySNnnBAHDhESo33Q1p4itM0VNruvCGRxnXS00sExe-rkBI7AZ5Uguijl0Uyl_mHJZwEvJLZ-oXEhIsPUM31Ef2yZhL4TJtTTCKW488TazWpgVkmmE0P3I47t7oqtE6V8V1eNpkHF5EwtFJUPkP38lGI0mI4nD5T5pexOhOStbpp8OofL7y3nFy0oq583_ulaypd7UpGzXPNx-hgA0WSpsHSJ8meiFlmiwpeKg3PiykzHbnw-FkQv06ZrQeLU1AbIBDGmKpnBWcWa1cIM1LNatYaRYmXa9G1OnWF5Jmx8ESFGzqMnRMC6kCUjv3GZZiJtExju8DYUOk1VvuRY9DeBHxg0ravSYsqLzEJvOUOmjCxdaG1XBzz6SiU4vnYci2VTAvm6XlEBYYcbUbLyvap5LmHLSKb9UZVxv4eea1HporURK1CAw49DGKzHV9WyVnwAgk8KoMGqeDra-dZOCK-PiG1tk_4wVMGLKzcB872VuZvx7aF-MS_J2HhwTbjrelFvQy3aru-1OChHJLR2zgV3Kkv5vzTzZG89kbnhHNeaURoFM2-xHkKN49mlItJBNpriqNXQ2HJWBV1qiiitkjPY9MecUehQWxS7je9QM8mSRhLmQTtuZWpPOAOY7l_Jp-tIBuJfoHcmNi5pHNNtxajBQ6pe6Nxe95X=s250-no?authuser=0",
       "favorite": false,
-      "coffeeCategory": "frappuccino"
+      "coffeeCategory": "frappuccino",
+      "price": 3.29,
+      "store": "Kroger"
     },
     {
       "id": 12,
@@ -118,7 +140,9 @@
       "sugarContent": 32,
       "image": "https://lh3.googleusercontent.com/zvH6DXJHQghb157dHVhupNVAOe7qv-XjrKOOSUyOJAe5AMjgGHancGW8N-tzyDqgREDSLZNIca2pRYkEarDor00D6JaxMRXnbMWNM6U2u_AsNAv9p9ZOFXADdT6ZCry3g_CXlGVSHXC3wOVkRNk-j6veIfgHboWGbqd3mNY_TPBsNJylBy33LYIgbeCKtnTXmBwSWzTzzApbGqQeXQDY7jZtZEQ1Jgr4Gq_Ce-hymbWmE62gUAiSansG7bVMLA8hWW1egT0g5x7i8yAlBYuZWDvEtrApsBOJ9Eh-FOIbCWeDcwmx-7Xe73ZuIEqvI5isW9-TEM8OC72WG36BWraCK6RUec-uQOMyr3DE-AfnabUscSi0XjNRyHfAAB2Boeeqh3K3-2nEMcpyb-lpLlkVqpq4ZNn6XFMxCufHgOmUtduFGUegO3wtw98_xTrFC-dHkWhXoSdL0Cw7J9ToSrEndIP-XKaBmI8Xk3KcdG73Vy9dxfDVFp_4SzsqwfbBCf6ZVO4iHYZxpivT1EAGw7ZzpyP6g1DSopfa9iOO1VvNfxwgiiwgWa3W2-wUImMd6nqhiOngmVpIHeLI-hXGsY41Hp7tUyuYmiyQsHN6NVkOYZxxTnMMw8rTu0eQdGn3RGYBoy7E5R0CQ0Q0KmxmDVVXjmYGBbn415emcs4euuI-srQeVyjYAyz9XuLRPOGLEl3RC9TqPP-D3p2yvn_ZTkfHrtd0=s250-no?authuser=0",
       "favorite": false,
-      "coffeeCategory": "frappuccino"
+      "coffeeCategory": "frappuccino",
+      "price": 0,
+      "store": "Kroger"
     },
     {
       "id": 13,

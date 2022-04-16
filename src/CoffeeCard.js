@@ -39,17 +39,15 @@ function CoffeeCard({ coffee }) {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="coffeeCardImage">
-        <img src={coffee.image}></img>
-      </div>
+        <img className="coffeeCardImage" src={coffee.image}></img>
       <div 
         className="coffeeInfo"
         style={{display: textDisplay}}
         >
         <h5>{coffee.name}</h5>
-        <p>{coffee.servingSize} fl oz</p>
-        <p>{coffee.caffeineContent}mg</p>
-        <p>{coffee.sugarContent}g</p>
+        <p>Serving Size: {coffee.servingSize} fl oz</p>
+        <p>Caffeine Content: {coffee.caffeineContent}mg</p>
+        <p>Sugar Content: {coffee.sugarContent}g</p>
         <button 
           className="favButton"
           onClick={favButtonSwitch}
