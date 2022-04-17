@@ -1,5 +1,32 @@
+#colorCrazy {
+  width: 68vw;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: rgb(255,255,255);
+  animation-name: colorchange;
+  animation-duration: 11s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+  @keyframes colorchange{
+      0%{background-color: #f4e749;}
+      10%{background-color: #60bbf4;}
+      20%{background-color: aqua;}
+      30%{background-color: #7d42dd;}
+      40%{background-color: #e5903a;}
+      50%{background-color: #a58828;}
+      60%{background-color: #bc3bbc;}
+      70%{background-color: #164a16;}
+      80%{background-color: #d94646;}
+      90%{background-color: #b96c52;}
+      100%{background-color: #bcef32;}
+}
+
+
 #controlBar {
-  height: 4300px;
+  height: 100vh;
   width: 30vw;
   float: left;
 }

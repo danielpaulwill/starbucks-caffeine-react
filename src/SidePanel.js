@@ -1,4 +1,4 @@
-function SidePanel({ handleSelect }) {
+function SidePanel({ handleSelect, handleClick }) {
 
   return (
     <div id="controlBar">
@@ -28,7 +28,8 @@ function SidePanel({ handleSelect }) {
           <br></br>
           <br></br>
           <br></br>
-          <button>CLICK ME!!!</button>
+          <button onClick={handleClick}>CLICK ME!!!</button>
+          <p style={{color: "white"}}>Come on... what's the worst that can happen?</p>
           </div>
         </div>
         <div id="info">

@@ -6,6 +6,7 @@ import React, { useState, useEffect } from 'react';
 function App() {
   const [filterValue, setFilterValue] = useState('start')
   const [coffeeData, setCoffeeData] = useState([])
+  const [crazyColors, setCrazyColors] = useState(false)
 
   console.log({ coffeeData })
   console.log({ filterValue })
@@ -54,10 +55,14 @@ function App() {
     .then(data => setCoffeeData(data.filter(coffee => coffee.coffeeCategory === filterValue)))
     }
 
+  function handleColorChange() {
+    setCrazyColors(crazyColors => !crazyColors)
+  }
+
   return (
     <div>
-      <SidePanel handleSelect={handleSelect}/>
-      <CardList coffeeData={coffeeData}/>
+      <SidePanel handleSelect={handleSelect} handleClick={handleColorChange}/>
+      <CardList coffeeData={coffeeData} crazyColors={crazyColors}/>
     </div>
   );
 }
