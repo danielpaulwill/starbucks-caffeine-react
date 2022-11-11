@@ -4,7 +4,7 @@ function CoffeeCard({ coffee }) {
   const [favButton, setFavButton] = useState(false)
   const [textDisplay, setTextDisplay] = useState('none')
 
-  console.log({favButton})
+  // console.log({favButton})
 
   useEffect(() => {
     setFavButton(coffee.favorite)
