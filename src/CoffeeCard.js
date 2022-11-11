@@ -34,24 +34,14 @@ function CoffeeCard({ coffee }) {
   }
 
   return (
-    <div 
-      className="coffeeCard"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-        <img className="coffeeCardImage" src={coffee.image}></img>
-      <div 
-        className="coffeeInfo"
-        style={{display: textDisplay}}
-        >
+    <div className="coffeeCard" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <img className="coffeeCardImage" src={coffee.image}></img>
+      <div className="coffeeInfo" style={{display: textDisplay}}>
         <h5>{coffee.name}</h5>
         <p>Serving Size: {coffee.servingSize} fl oz</p>
         <p>Caffeine Content: {coffee.caffeineContent}mg</p>
         <p>Sugar Content: {coffee.sugarContent}g</p>
-        <button 
-          className="favButton"
-          onClick={favButtonSwitch}
-        >
+        <button className="favButton" onClick={favButtonSwitch}>
           {favButton ? "♥" : "♡"}
         </button>
       </div>
