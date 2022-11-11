@@ -6,8 +6,8 @@
       "servingSize": 12,
       "caffeineContent": 120,
       "sugarContent": 0,
-      "image": "https://lh3.googleusercontent.com/eQD0dLigQxYt7DqutD-mp2VV_rF73UI7B_5pgJiKmEvLfXlbjhkUrXCvxhY3qpFYfGKp635yFtbHtc0RgN7qF6tDODZBICmtBYH-Wu2i1A-3TKlLRnu2cFG7togVZfWMyuwyhVOuSWgxvrxhiClvj_8gkpmEwHabx3zpdF27wnqMN9TeEcpELsOg88MuKCLt4SgAPyYuoggzoyj9NSOVAikCgSXd6kAhMfkZ4lKmNdYueBkGo1AfYkxq4bAw7RbPbKaCQBf8bnA7b15ltX53IAQU_dunnZqzQw2rmBxgiPM-O2pskXQbkw90CMzPzj9TphfFy6nLmGWDOlYetSL2p9xsH5Bl2UM9Y2JP_MvLXDzbLq_jpBtPDkuQ6XaF2WEvSBbhhLx4C65ZU60KdrshFBJfgCsUSuDLt0v5G7Y8o7kW5d6HiOOInX269iN2d6tvWd_9MAHKPM94wQfTqEdXPRphMM_lIlieDQshVozfCrGFGkRFQZm_d0fWutmla6_vKyCXi_pSY-FAiHln80ApMhKRRFqAAKO1VB_5wcI2Z29VaZbUbttdGxWKmTSGaMQ4K4FlpnD2z_uHhoKXd0jWKijKuvdT3Ils92MHpMU5kwuaHbzvPKJWYZ_h0YxA6vQB6Cg-n0KdHwJQg-LfT2tB-1MzOx8BIB7FyfxtjBlbcUvPv5PcG0t-yBnNLwWznOy21JkhfEtNOkpV_4Ohr0astL7RoyxWRkJ6tcBvLo7Xvo-UVRLj9FgyEjZm39ozp5t_3frtDEJCLabeQ-YGyBUzRuXzDapTsE9Ucyb6zuFKdOq3AERHVif2dguuqcEMIwcws71-cw=s700-no?authuser=0",
-      "favorite": true,
+      "image": "./assets/blonde-roast-iced-coffee-unsweetened.jpg",
+      "favorite": false,
       "coffeeCategory": "icedCoffee",
       "price": 4.99,
       "store": "Target"
@@ -261,7 +261,7 @@
       "caffeineContent": 125,
       "sugarContent": 29,
       "image": "https://lh3.googleusercontent.com/HD_eGFAJUKZth7dQL9ZCMCwiMHO0vAAqBEIotEPeijzQlndV7oA90HQ8Cdbbnb4k3AkYVi8KMsRNjCRXWcjVOfd8iCUN2H2RNBhBPZRzx1_gv0PKYA4oRZBVijGrtGoDtU8YFueTHSywDj_Y0M0T-s1EjY_ty1pGmlUJwFZVdvpLEur9jK-HmbxMWImbwkZlUkk-gBe2YsPuPY5vCpElTtectyOClzISi90SV446g25sG9wfOEJmdpcj08am4itW5NB6mFbQDGLIMG8IMBpo_GECfCVfyCb_aE1iCD0Sqav8B4JLImMA2GMguAHbNmjq2-eYDSPTwapFbKSHP8brXxXKlU5Gao2zGWsYLswnRr2WMwpnzojT1r55QcCKiT3sk1FjrQpQRLvKZrhkfTSzLSkxqQtzqcPrTaS4nPUsJNzHlK2HL5CHnW302Ur1BFlsb8tcKD50vZl8oO0HMHUciYiPSquwnwH3Pj_PJ5EzPvs9mMNxCGwYJwGnuePw2MWDVScoL5X8nTbJeHS1PFHi69SlpObN9dsOF_eZr4CwIwAO_un8NY8e674dYOrT7iCAmBmqw9TmIbcW88tKbHmZ2sGqcoa7TSNk3teyrWdpTj8Brxh4mE8_OaQO-_6yrSETWIm_5cpRjFaZLVmE8zQ9TJJ4yx0ia3KbcNb-aM43Ga42-_4S2tdqYfkkiR2f0i50RSAmhQqllZtUBV-a1LH0QU7rWc9-mUV4zUW8paelHGWaNroCH1QCl5fgzwI53-SkKqLo_ZsteCwhPM3WkbFr0PoJiNXykUjxUTY5DQKCckqnsL2Y_BiT65AcUVvezZMuSSzt3Q=s700-no?authuser=0",
-      "favorite": false,
+      "favorite": true,
       "coffeeCategory": "espresso"
     },
     {
