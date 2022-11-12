@@ -61,7 +61,7 @@ function App() {
   }
 
   return (
-    <div className='container-fluid'>
+    <div>
       <SidePanel handleSelect={handleSelect} handleClick={handleColorChange}/>
       <CardList coffeeData={coffeeData} crazyColors={crazyColors}/>
     </div>

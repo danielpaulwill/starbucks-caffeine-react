@@ -2,32 +2,34 @@ function SidePanel({ handleSelect, handleClick }) {
 
   return (
     <div /*id="controlBar"*/ className="container-fluid">
-      {/* <div id="controls"> */}
-        <div className="container-fluid title">
+        <div className="row title">
           <h3>Starbucks Confidential</h3>
         </div>
-        <div id="form">
-          <div className="col-3 red">
-            <p>hellow rold</p>
-          </div>
-          <div /*id="formContent"*/ className="col-3 formContent">
-            <form>
-              <select name="style" id="select" onChange={handleSelect}>
-                <option value="start">CATEGORY</option>
-                <option value="coldBrew">Cold Brew</option>
-                <option value="espresso">Espresso</option>
-                <option value="frappuccino">Frappuccino</option>
-                <option value="icedCoffee">Iced Coffee</option>
-                <option value="latte">Latte</option>
-                <option value="favorite">Favorites</option>
-              </select>
-            </form>
-          </div>
-          <div className="col-3">
-            <button onClick={handleClick}>FUN BUTTON</button>
-          </div>
-          <div className="col-3">
-          </div>
+        <div className="row form">
+          {/* <div id="form"> */}
+            <div className="col-3 red">
+              {/* <p>hellow rold</p> */}
+            </div>
+            <div /*id="formContent"*/ className="col-3 formContent">
+              <form>
+                <select name="style" id="select" onChange={handleSelect}>
+                  <option value="start">CATEGORY</option>
+                  <option value="coldBrew">Cold Brew</option>
+                  <option value="espresso">Espresso</option>
+                  <option value="frappuccino">Frappuccino</option>
+                  <option value="icedCoffee">Iced Coffee</option>
+                  <option value="latte">Latte</option>
+                  <option value="favorite">Favorites</option>
+                </select>
+              </form>
+            </div>
+            <div className="col-3">
+              <button onClick={handleClick}>FUN BUTTON</button>
+            </div>
+            <div className="col-3 red">
+              {/* <p>hello</p> */}
+            </div>
+          {/* </div> */}
 
         </div>
         <div id="info">
@@ -38,7 +40,6 @@ function SidePanel({ handleSelect, handleClick }) {
             id="infoMug">
           </img>
         </div>
-      {/* </div> */}
     </div>
 
   )
