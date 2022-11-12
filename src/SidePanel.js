@@ -1,32 +1,34 @@
 function SidePanel({ handleSelect, handleClick }) {
 
   return (
-    <div /*id="controlBar"*/ className="container">
+    <div /*id="controlBar"*/ className="container-fluid">
       {/* <div id="controls"> */}
-        <div id="title">
+        <div className="container-fluid title">
           <h3>Starbucks Confidential</h3>
         </div>
         <div id="form">
-          <div id="formContent">
-          <h2>Select one of the <br></br>options below <br></br>to filter</h2>
-          <form>
-            <select name="style" id="select" onChange={handleSelect}>
-              <option value="start">Coffee Category</option>
-              <option value="coldBrew">Cold Brew</option>
-              <option value="espresso">Espresso</option>
-              <option value="frappuccino">Frappuccino</option>
-              <option value="icedCoffee">Iced Coffee</option>
-              <option value="latte">Latte</option>
-              <option value="favorite">Favorites</option>
-            </select>
-          </form>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <button onClick={handleClick}>CLICK ME!!!</button>
-          <p style={{color: "white"}}>Come on... what's the worst that can happen?</p>
+          <div className="col-3 red">
+            <p>hellow rold</p>
           </div>
+          <div /*id="formContent"*/ className="col-3 formContent">
+            <form>
+              <select name="style" id="select" onChange={handleSelect}>
+                <option value="start">CATEGORY</option>
+                <option value="coldBrew">Cold Brew</option>
+                <option value="espresso">Espresso</option>
+                <option value="frappuccino">Frappuccino</option>
+                <option value="icedCoffee">Iced Coffee</option>
+                <option value="latte">Latte</option>
+                <option value="favorite">Favorites</option>
+              </select>
+            </form>
+          </div>
+          <div className="col-3">
+            <button onClick={handleClick}>FUN BUTTON</button>
+          </div>
+          <div className="col-3">
+          </div>
+
         </div>
         <div id="info">
           <h4 id="infoText">A normal cup of coffee has <br></br>95mg of caffeine</h4>

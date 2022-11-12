@@ -1,4 +1,5 @@
 import './App.css';
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import SidePanel from './SidePanel';
 import CardList from './CardList';
 import React, { useState, useEffect } from 'react';
@@ -8,8 +9,8 @@ function App() {
   const [coffeeData, setCoffeeData] = useState([])
   const [crazyColors, setCrazyColors] = useState(false)
 
-  console.log({ coffeeData })
-  console.log({ filterValue })
+  // console.log({ coffeeData })
+  // console.log({ filterValue })
 
   function initFetch() {
     fetch('http://localhost:3000/coffee')
