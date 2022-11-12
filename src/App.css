@@ -109,6 +109,8 @@
   height: inherit; */
   /* height: inherit; */
   /* width: inherit; */
+  z-index: 9;
+  margin: 20px;
   text-align: center;
   position: static;
   background-color: rgb(255, 255, 255, .8);
