@@ -4,11 +4,7 @@ function SidePanel({ handleSelect, handleClick }) {
     <div /*id="controlBar"*/ className="container">
       {/* <div id="controls"> */}
         <div id="title">
-          <h3>A Tired Parents Guide <br></br> to Starbucks at Home</h3>
-          <img 
-            src="https://lh3.googleusercontent.com/ZvJfS7LRjHWHEhUaWoqC34UgfHLCN_Sp9qV-zZTpqvkZLp8sVxekxSiz-iFfv-pFRRE_7_JxxNkXeYdzHfwPaX0iNRRphGDXyaBif6r2KmKUOpzvpQtadouRrHlgN6OH8slM8VvcDIJFoCu8VV45gZQ3FHbb1WtUPxcOXE1csDYcvUU68eG02XAHXn76xc7VbhPh3J_i42xUhx4WHqwuwdyM7-kkrF8k_jROaYOKmFeFI7FqF6h_sXn-ka93YC5cQjwomuPZNQLm5fpnQKpenU1-HxLwDsWMgoICZZt1bFga-NGljhgFiVK65AWZFbZsOueJLjHR3UfR42fAr4rZa2q_2MIv3r9KTQWjfFIB5MpAkEIee1n8qYO1IumNsTDpIsPVRStMw-FFYFYqWqAryD8iMAD7AqKgGnKezlK9kZhbodY_j7uJYrUPRxeroQl3mWm06HiFnkqNc5p_af4Ih9DaI_VWwb_HO0Z_PtAEIVe88ls1-lleLHGSwIVJ-o5gReWSY5SKvCUJg_w2hkkzbqmInxNRf3uMGBBpKe1f3BaHzIZzaPkz0PHVFaFUDTN7xdJDJ7HNf1jLvX_-TQakywp3TQ27UjQXAhTLYesbXaDeDRx4BqWz8Jwgnvsm4arg61fXCp8MaY9WmgOvUHshmrqSABOMz8BWYBn1r2tWrlhvq1ygOjXHNw-iwCfBF7wq7_A6ENWHWkN82DkGwr7mTQVx=w280-h56-no?authuser=0"
-            id="logo">
-          </img>
+          <h3>Starbucks Confidential</h3>
         </div>
         <div id="form">
           <div id="formContent">
