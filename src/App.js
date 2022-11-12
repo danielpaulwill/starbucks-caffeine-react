@@ -1,6 +1,6 @@
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
-import SidePanel from './SidePanel';
+import Header from './Header';
 import CardList from './CardList';
 import React, { useState, useEffect } from 'react';
 
@@ -62,7 +62,7 @@ function App() {
 
   return (
     <div>
-      <SidePanel handleSelect={handleSelect} handleClick={handleColorChange}/>
+      <Header handleSelect={handleSelect} handleClick={handleColorChange}/>
       <CardList coffeeData={coffeeData} crazyColors={crazyColors}/>
     </div>
   );

@@ -4,8 +4,6 @@ function CoffeeCard({ coffee }) {
   const [favButton, setFavButton] = useState(false)
   const [textDisplay, setTextDisplay] = useState('none')
 
-  // console.log({favButton})
-
   useEffect(() => {
     setFavButton(coffee.favorite)
   }, [])
@@ -34,7 +32,7 @@ function CoffeeCard({ coffee }) {
   }
 
   return (
-    <div className="coffeeCard" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <div /*className="coffeeCard"*/ className="col-4 coffeeCard blue" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <img className="coffeeCardImage" src={coffee.image}></img>
       <div className="coffeeInfo" style={{display: textDisplay}}>
         <h5>{coffee.name}</h5>

@@ -14,8 +14,6 @@
 }
 
 .title {
-  width: inherit;
-  height: 5vh;
   background-color: #F2F0EB;
   padding: 10px 0 30px 0;
   text-align: center;
@@ -42,10 +40,9 @@
   text-align: center;
 }
 
-#info {
-  width: inherit;
-  height: 15vh;
+.info {
   background-color: #D4E9E2;
+  text-align: center;
 }
 
 #infoText {
@@ -92,11 +89,13 @@
 }
 
 .coffeeCard {
-  width: 22vw;
-  height: auto;
-  padding: 3vh 0;
-  display: flex;
-  justify-content: center;
+  /* width: 22vw;
+  height: auto; */
+  /* padding: 3vh 0; */
+  /* display: flex;
+  flex-wrap: column; */
+  /* justify-content: center; */
+  background-color: green;
 }
 
 .coffeeCardImage {
@@ -106,10 +105,12 @@
 }
 
 .coffeeInfo {
-  width: inherit;
-  height: inherit;
+  /* width: inherit;
+  height: inherit; */
+  /* height: inherit; */
+  /* width: inherit; */
   text-align: center;
-  position: fixed;
+  position: static;
   background-color: rgb(255, 255, 255, .8);
 }
 
@@ -155,3 +156,7 @@ h5 {
   background-color: red;
 }
 
+.blue {
+  background-color: blue;
+  border: solid 1px #FFF;
+}
