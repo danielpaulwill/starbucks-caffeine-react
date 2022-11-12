@@ -8,8 +8,6 @@ function App() {
   const [coffeeData, setCoffeeData] = useState([])
   const [crazyColors, setCrazyColors] = useState(false)
 
-  // Test branch push
-
   console.log({ coffeeData })
   console.log({ filterValue })
 
@@ -62,7 +60,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='container-fluid'>
       <SidePanel handleSelect={handleSelect} handleClick={handleColorChange}/>
       <CardList coffeeData={coffeeData} crazyColors={crazyColors}/>
     </div>

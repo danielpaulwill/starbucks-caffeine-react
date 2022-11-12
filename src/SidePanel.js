@@ -1,8 +1,8 @@
 function SidePanel({ handleSelect, handleClick }) {
 
   return (
-    <div id="controlBar">
-      <div id="controls">
+    <div /*id="controlBar"*/ className="container">
+      {/* <div id="controls"> */}
         <div id="title">
           <h3>A Tired Parents Guide <br></br> to Starbucks at Home</h3>
           <img 
@@ -40,7 +40,7 @@ function SidePanel({ handleSelect, handleClick }) {
             id="infoMug">
           </img>
         </div>
-      </div>
+      {/* </div> */}
     </div>
 
   )
