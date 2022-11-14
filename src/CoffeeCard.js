@@ -38,7 +38,7 @@ function CoffeeCard({ coffee }) {
   }
 
   return (
-    <div /*className="coffeeCard"*/ className="col-3 coffeeCard blue" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <div /*className="coffeeCard"*/ className="col-6 col-md-3 coffeeCard blue" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <img className="coffeeCardImage" src={coffee.image}></img>
       <div className="coffeeCardImage coffeeInfo" style={{display: textDisplay}}>
         <h5>{coffee.name}</h5>

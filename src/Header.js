@@ -6,10 +6,10 @@ function Header({ handleSelect, handleClick }) {
           <h3>Starbucks Confidential</h3>
         </div>
         <div className="row form">
-            <div className="col-3">
+            <div className="col-md-3">
               {/* Empty left side column */}
             </div>
-            <div className="col-3 formContent">
+            <div className="col-md-3 formContent">
               <form>
                 <select name="style" id="select" onChange={handleSelect}>
                   <option value="start">SELECT CATEGORY</option>
@@ -22,10 +22,10 @@ function Header({ handleSelect, handleClick }) {
                 </select>
               </form>
             </div>
-            <div className="col-3 formContent">
+            <div className="col-md-3 formContent">
               <button onClick={handleClick}>FUN BUTTON</button>
             </div>
-            <div className="col-3">
+            <div className="col-md-3">
               {/* Empty right side column */}
             </div>
         </div>
