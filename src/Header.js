@@ -11,7 +11,7 @@ function Header({ handleSelect, handleClick }) {
             </div>
             <div className="col-md-3 formContent">
               <form>
-                <select name="style" id="select" onChange={handleSelect}>
+                <select name="style" className="btn btn-light" id="select" onChange={handleSelect}>
                   <option value="start">SELECT CATEGORY</option>
                   <option value="coldBrew">Cold Brew</option>
                   <option value="espresso">Espresso</option>
@@ -23,7 +23,7 @@ function Header({ handleSelect, handleClick }) {
               </form>
             </div>
             <div className="col-md-3 formContent">
-              <button onClick={handleClick}>FUN BUTTON</button>
+              <button className="btn btn-light" onClick={handleClick}>Fun Button</button>
             </div>
             <div className="col-md-3">
               {/* Empty right side column */}

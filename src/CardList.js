@@ -7,7 +7,7 @@ function CardList({ coffeeData, crazyColors }) {
   ));
 
   return (
-    <div /*id={crazyColors ? "colorCrazy" : "cardArea"}*/ className="row red">
+    <div id={crazyColors ? "colorCrazy" : "cardArea"} className="row">
       {coffeeCards}
     </div>
   )

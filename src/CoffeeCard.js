@@ -29,8 +29,7 @@ function CoffeeCard({ coffee }) {
   }
 
   return (
-    <div /*className="coffeeCard"*/ className="col-6 col-md-3 coffeeCard blue" onMouseEnter={handleInfo} onMouseLeave={handleInfo}>
-      <img className="coffeeCardImage" src={coffee.image}></img>
+    <div className="col-6 col-md-3 coffeeCard" onMouseEnter={handleInfo} onMouseLeave={handleInfo}>
       <div className={textDisplay ? "coffeeInfo" : "noInfo"}>
         <h5>{coffee.name}</h5>
         <p>Serving Size: {coffee.servingSize} fl oz</p>
@@ -39,6 +38,9 @@ function CoffeeCard({ coffee }) {
         <button className="favButton" onClick={favButtonSwitch}>
           {favButton ? "♥" : "♡"}
         </button>
+      </div>
+      <div className="coffeeImg">
+        <img className={textDisplay ? "coffeeCardImageSelect" : "coffeeCardImage"} src={coffee.image}></img>
       </div>
     </div>
   )
