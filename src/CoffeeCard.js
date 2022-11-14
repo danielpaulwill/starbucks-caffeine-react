@@ -2,23 +2,14 @@ import { useEffect, useState } from "react"
 
 function CoffeeCard({ coffee }) {
   const [favButton, setFavButton] = useState(false)
-  const [textDisplay, setTextDisplay] = useState('none')
-  const [currentSelect, setCurrentSelect] = useState(false)
-  // use currentSelect along with handleInfo function to replace handleMouseEnter & handleMouseLeave
+  const [textDisplay, setTextDisplay] = useState(false)
 
   useEffect(() => {
     setFavButton(coffee.favorite)
   }, [])
 
-  function handleMouseEnter() {
-    setTextDisplay('block')
-  }
-
-  function handleMouseLeave() {
-    setTextDisplay('none')
-  }
-
   function handleInfo() {
+    setTextDisplay(textDisplay => !textDisplay)
     // Build this out to change the currentSelect state gets changed on mouseEnter or mouseExit
   }
 
@@ -38,9 +29,9 @@ function CoffeeCard({ coffee }) {
   }
 
   return (
-    <div /*className="coffeeCard"*/ className="col-6 col-md-3 coffeeCard blue" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <div /*className="coffeeCard"*/ className="col-6 col-md-3 coffeeCard blue" onMouseEnter={handleInfo} onMouseLeave={handleInfo}>
       <img className="coffeeCardImage" src={coffee.image}></img>
-      <div className="coffeeCardImage coffeeInfo" style={{display: textDisplay}}>
+      <div className={textDisplay ? "coffeeInfo" : "noInfo"}>
         <h5>{coffee.name}</h5>
         <p>Serving Size: {coffee.servingSize} fl oz</p>
         <p>Caffeine Content: {coffee.caffeineContent}mg</p>
