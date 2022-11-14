@@ -89,13 +89,8 @@
 }
 
 .coffeeCard {
-  /* width: 22vw;
-  height: auto; */
-  /* padding: 3vh 0; */
-  /* display: flex;
-  flex-wrap: column; */
-  /* justify-content: center; */
-  background-color: green;
+  height: 100%;
+  width: 100%;
 }
 
 .coffeeCardImage {
@@ -104,29 +99,33 @@
   align-content: center;
   text-align: center;
   position: relative;
-  /* z-index: 1; */
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .coffeeInfo {
-  width: inherit;
-  height: inherit;
+  width: auto;
+  height: auto;
   align-content: center;
   text-align: center;
   position: relative;
   top: 0;
   left: 0;
-  /* width: inherit;
-  height: inherit; */
-  /* height: inherit; */
-  /* width: inherit; */
-  /* z-index: 2; */
-  /* margin: 20px;
-  position: static; */
   background-color: rgb(255, 255, 255, .8);
+  z-index: 5;
 }
 
 .noInfo {
-  display: none;
+  width: auto;
+  height: auto;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 5;
 }
 
 h2 {
