@@ -90,7 +90,7 @@
       100%{background-color: #bcef32;}
 }
 
-.col-md-3.coffeeCard {
+.coffeeCard1 {
   /* height: 100%; */
   /* width: 25vw; */
   position: relative;
@@ -98,7 +98,9 @@
   padding-bottom: 25%;
 }
 
-.col-6.coffeeCard {
+.coffeeCard2 {
+  /* height: 100%; */
+  /* width: 25vw; */
   position: relative;
   height: 0;
   padding-bottom: 50%;
@@ -172,6 +174,8 @@ h4 {
 
 h5 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 1000;
+  color: red;
 }
 
 .favButton {

@@ -3,14 +3,28 @@ import { useEffect, useState } from "react"
 function CoffeeCard({ coffee }) {
   const [favButton, setFavButton] = useState(false)
   const [textDisplay, setTextDisplay] = useState(false)
+  const [width, setWidth] = useState()
+  const [windowWidth, setWindowWidth] = useState()
 
   useEffect(() => {
     setFavButton(coffee.favorite)
   }, [])
 
+  useEffect(() => {
+    let w = window.innerWidth
+    if (w >= 768) {
+      setWidth(true)
+    } else setWidth(false)
+  }, [windowWidth])
+
+  function reportWindowSize() {
+    setWindowWidth(window.innerWidth)
+  }
+
+  window.addEventListener("resize", reportWindowSize)
+
   function handleInfo() {
     setTextDisplay(textDisplay => !textDisplay)
-    // Build this out to change the currentSelect state gets changed on mouseEnter or mouseExit
   }
 
   function favButtonSwitch() {
@@ -29,9 +43,9 @@ function CoffeeCard({ coffee }) {
   }
 
   return (
-    <div className="col-6 col-md-3 coffeeCard" onMouseEnter={handleInfo} onMouseLeave={handleInfo}>
+    <div className={width ? "col-6 col-md-3 coffeeCard1" : "col-6 col-md-3 coffeeCard2"} onMouseEnter={handleInfo} onMouseLeave={handleInfo}>
       <div className={textDisplay ? "coffeeInfo" : "noInfo"}>
-        <h5>{coffee.name}</h5>
+        <p className="h6">{coffee.name}</p>
         <p>Serving Size: {coffee.servingSize} fl oz</p>
         <p>Caffeine Content: {coffee.caffeineContent}mg</p>
         <p>Sugar Content: {coffee.sugarContent}g</p>
