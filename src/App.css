@@ -27,16 +27,12 @@
 }
 
 .form {
-  /* width: inherit;
-  height: 50vh; */
   background-color: #006241;
   padding-top: 15px;
   padding-bottom: 15px;
-  /* text-align: justify; */
 }
 
 .formContent {
-  /* padding-left: 3vw; */
   padding: 3px;
   text-align: center;
 }
@@ -47,7 +43,7 @@
 }
 
 #infoText {
-  padding-left: 3vw;
+  padding-top: 5px;
 }
 
 #infoMug {
@@ -56,20 +52,10 @@
 }
 
 #cardArea {
-  /* width: 68vw;
-  height: auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly; */
   background-color: rgb(255,255,255);
 }
 
 #colorCrazy {
-  /* width: 68vw;
-  height: auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly; */
   background-color: rgb(255,255,255);
   animation-name: colorchange;
   animation-duration: 11s;
@@ -91,16 +77,12 @@
 }
 
 .coffeeCard1 {
-  /* height: 100%; */
-  /* width: 25vw; */
   position: relative;
   height: 0;
   padding-bottom: 25%;
 }
 
 .coffeeCard2 {
-  /* height: 100%; */
-  /* width: 25vw; */
   position: relative;
   height: 0;
   padding-bottom: 50%;
@@ -121,8 +103,6 @@
   text-align: center;
   position: absolute;
   top: 0;
-  /* left: 0; */
-  /* z-index: 1; */
 }
 
 .coffeeCardImageSelect {
@@ -138,10 +118,10 @@
 }
 
 .coffeeInfo {
+  position: absolute;
   align-content: center;
   text-align: center;
-  position: absolute;
-  top: 0;
+  align-self: center;
   padding-top: 20px;
   z-index: 5;
 }
