@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Starbucks Confidential
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Starbucks Confidential. An informational drink app that shows you the caffeine content of popular bottled Starbucks drinks that is available no where else.
+<p>&nbsp;</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+### Visuals
 
-### `npm start`
+*gif of app
+*link to video of app?
+<p>&nbsp;</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Description
+When my fist child was born one of the only ways I survived was through my love of coffee. My coffee consumption skyrocketed. I tried energy drinks, I tried soda, I tried tea, but coffee is really the only liquid substance I kept coming back to that is both delicious and satisfies my desire to not fall asleep while holding my newborn.
 
-### `npm test`
+There are a variety of prepackaged coffee drinks ripe for the taking in every grocery store. I've tried many different kinds, but Starbucks seems to meet that sweet spot between quality and price. The tough thing with coffee however, is that the caffeine content is almost never available. It's not put on the cans or the packaging itself, and it's not readily available on grocer's websites.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I wanted to create an app that had this caffeine content information front and center so I could quickly compare drinks and choose one accordingly. The other two main data points I cared most about was sugar content and serving size.
+<p>&nbsp;</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Features
+- Photo showing each drink
+- Serving size, caffeine and sugar content data
+- Filterable by drink type
+- Favoriting ability to quickly return to your favorite drinks
+<p>&nbsp;</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
+After initial cloning. Navigate into the project folder and run the following:
+```
+npm install
+```
+Once the apps dependencies are installed, run the following code to install the JSON Server.
+```
+npm install -g json-server
+```
+The final step once setup is complete is to run the app.
+```
+json-server --watch db.json
+```
+```
+npm start
+```
+Then navigate to http://localhost:3001/
+<p>&nbsp;</p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Roadmap
+- More filter options
+  - High & low caffeine
+  - High & low sugar
+- Visual representation of each drinks caffeine content vs. a normal cup of coffee
+<p>&nbsp;</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Credits
+All coffee images used are from https://www.pepsicobeveragefacts.com/
