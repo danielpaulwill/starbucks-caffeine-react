@@ -3,6 +3,7 @@ function Header({ handleSelect, handleClick }) {
   return (
     <div className="container-fluid">
         <div className="row title">
+          <img src="./assets/Cup.gif"></img>
           <h3>Starbucks Confidential</h3>
         </div>
         <div className="row form">

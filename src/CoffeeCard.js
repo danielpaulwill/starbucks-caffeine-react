@@ -54,7 +54,7 @@ function CoffeeCard({ coffee }) {
         </button>
       </div>
       <div className="coffeeImg">
-        <img className={textDisplay ? "coffeeCardImageSelect" : "coffeeCardImage"} alt="coffee image" src={coffee.image}></img>
+        <img className={textDisplay ? "coffeeCardImageSelect" : "coffeeCardImage"} alt="coffee" src={coffee.image}></img>
       </div>
     </div>
   )
