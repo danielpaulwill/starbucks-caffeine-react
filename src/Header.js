@@ -3,8 +3,13 @@ function Header({ handleSelect, handleClick }) {
   return (
     <div className="container-fluid">
         <div className="row title">
-          <img src="./assets/Cup.gif"></img>
-          <h3>Starbucks Confidential</h3>
+          <div className="col-2"></div>
+          <div className="col-2"></div>
+          <img className="logoImg col-1" src="https://raw.githubusercontent.com/danielpaulwill/starbucks-caffeine-react/main/src/assets/Cup.gif"></img>
+          <p className="h3 col-2">Starbucks Confidential</p>
+          <img className="logoImg col-1" src="https://raw.githubusercontent.com/danielpaulwill/starbucks-caffeine-react/main/src/assets/Cup.gif"></img>
+          <div className="col-2"></div>
+          <div className="col-2"></div>
         </div>
         <div className="row form">
             <div className="col-md-3">
