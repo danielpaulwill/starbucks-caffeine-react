@@ -23,18 +23,7 @@ function App() {
   }, [])
   
   useEffect(() => {
-    coffeeCardFilter()
-  }, [filterValue])
-
-  // Sets filterValue to the selected dropdown value
-  function handleSelect(e) {
-    e.preventDefault()
-    window.scrollTo(0, 0)
-    setFilterValue(e.target.value)
-  }
-
-  // Handles setting the coffeeData based on the filterValue
-  function coffeeCardFilter() {
+    // Handles setting the coffeeData based on the filterValue
     if (filterValue === 'start'){
       initFetch()
     } else if (filterValue === 'favorite'){
@@ -42,6 +31,13 @@ function App() {
     } else {
       otherFilter()
     }
+  }, [filterValue])
+
+  // Sets filterValue to the selected dropdown value
+  function handleSelect(e) {
+    e.preventDefault()
+    window.scrollTo(0, 0)
+    setFilterValue(e.target.value)
   }
 
   function favFilter() {

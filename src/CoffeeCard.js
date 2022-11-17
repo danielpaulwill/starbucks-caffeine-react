@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react"
 
 function CoffeeCard({ coffee }) {
-  const [favButton, setFavButton] = useState(false)
+  const [favButton, setFavButton] = useState(coffee.favorite)
   const [textDisplay, setTextDisplay] = useState(false)
   const [width, setWidth] = useState()
   const [windowWidth, setWindowWidth] = useState()
 
-  useEffect(() => {
-    setFavButton(coffee.favorite)
-  }, [])
+  // useEffect(() => {
+  //   setFavButton(coffee.favorite)
+  // }, [])
 
   useEffect(() => {
     let w = window.innerWidth

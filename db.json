@@ -31,7 +31,7 @@
       "caffeineContent": 160,
       "sugarContent": 12,
       "image": "https://raw.githubusercontent.com/danielpaulwill/starbucks-caffeine-react/main/src/assets/medium-roast-iced-coffee-subtly-sweet.png",
-      "favorite": false,
+      "favorite": true,
       "coffeeCategory": "icedCoffee",
       "price": 4.99,
       "store": "Target"
