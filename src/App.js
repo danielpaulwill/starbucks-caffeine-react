@@ -13,7 +13,7 @@ function App() {
   // console.log({ filterValue })
 
   function initFetch() {
-    fetch('http://localhost:3000/coffee')
+    fetch('/coffee')
     .then(res => res.json())
     .then(data => setCoffeeData(data))
   }
@@ -45,13 +45,13 @@ function App() {
   }
 
   function favFilter() {
-    fetch('http://localhost:3000/coffee')
+    fetch('/coffee')
     .then(res => res.json())
     .then(data => setCoffeeData(data.filter(coffee => coffee.favorite === true)))
   }
 
   function otherFilter() {
-    fetch('http://localhost:3000/coffee')
+    fetch('/coffee')
     .then(res => res.json())
     .then(data => setCoffeeData(data.filter(coffee => coffee.coffeeCategory === filterValue)))
     }
