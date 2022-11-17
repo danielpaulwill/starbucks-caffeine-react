@@ -5,9 +5,9 @@ function Header({ handleSelect, handleClick }) {
         <div className="row title">
           <div className="col-2"></div>
           <div className="col-2"></div>
-          <img className="logoImg col-1" src="https://raw.githubusercontent.com/danielpaulwill/starbucks-caffeine-react/main/src/assets/Cup.gif"></img>
+          <img className="logoImg col-1" alt="starbucks cup" src="https://raw.githubusercontent.com/danielpaulwill/starbucks-caffeine-react/main/src/assets/Cup.gif"></img>
           <p className="h3 col-2">Starbucks Confidential</p>
-          <img className="logoImg col-1" src="https://raw.githubusercontent.com/danielpaulwill/starbucks-caffeine-react/main/src/assets/Cup.gif"></img>
+          <img className="logoImg col-1" alt="starbucks cup" src="https://raw.githubusercontent.com/danielpaulwill/starbucks-caffeine-react/main/src/assets/Cup.gif"></img>
           <div className="col-2"></div>
           <div className="col-2"></div>
         </div>

@@ -29,7 +29,9 @@ function App() {
     } else if (filterValue === 'favorite'){
       favFilter()
     } else {
-      otherFilter()
+      fetch('/coffee')
+      .then(res => res.json())
+      .then(data => setCoffeeData(data.filter(coffee => coffee.coffeeCategory === filterValue)))
     }
   }, [filterValue])
 
@@ -45,12 +47,6 @@ function App() {
     .then(res => res.json())
     .then(data => setCoffeeData(data.filter(coffee => coffee.favorite === true)))
   }
-
-  function otherFilter() {
-    fetch('/coffee')
-    .then(res => res.json())
-    .then(data => setCoffeeData(data.filter(coffee => coffee.coffeeCategory === filterValue)))
-    }
 
   function handleColorChange() {
     setCrazyColors(crazyColors => !crazyColors)
