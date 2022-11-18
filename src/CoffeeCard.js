@@ -6,10 +6,6 @@ function CoffeeCard({ coffee }) {
   const [width, setWidth] = useState()
   const [windowWidth, setWindowWidth] = useState()
 
-  // useEffect(() => {
-  //   setFavButton(coffee.favorite)
-  // }, [])
-
   useEffect(() => {
     let w = window.innerWidth
     if (w >= 768) {
@@ -29,17 +25,19 @@ function CoffeeCard({ coffee }) {
 
   function favButtonSwitch() {
     setFavButton(favButton => !favButton)
-    fetch(`http://localhost:3000/coffee/${coffee.id}`, {
-    method: "PATCH",
-    headers: {
-    "Content-Type": "application/json",
-    Accept: "application/json",
-  },
-    body: JSON.stringify({
-    favorite: (coffee.favorite = !coffee.favorite)}),
-  })
-  .then(response => response.json())
-  .then(data => console.log(data.favorite))
+    fetch(`https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee/${coffee.id}`, {
+      method: "PATCH",
+      // mode: "no-cors",
+      headers: {
+        "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ",
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+      favorite: (coffee.favorite = !coffee.favorite)}),
+    })
+    .then(res => res.json())
+    .then(data => console.log(data.favorite))
   }
 
   return (
