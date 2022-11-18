@@ -3,17 +3,25 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import Header from './Header';
 import CardList from './CardList';
 import React, { useState, useEffect } from 'react';
+import { createClient } from '@supabase/supabase-js'
 
 function App() {
   const [filterValue, setFilterValue] = useState('start')
   const [coffeeData, setCoffeeData] = useState([])
   const [crazyColors, setCrazyColors] = useState(false)
 
-  // console.log({ coffeeData })
-  // console.log({ filterValue })
+  // const supabaseUrl = 'https://jetukdejlrbsfrtozagr.supabase.co'
+  // const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ"
+  // const supabase = createClient(supabaseUrl, supabaseKey)
 
   function initFetch() {
-    fetch('/coffee')
+    fetch("https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee", {
+      method: "GET",
+      // mode: "no-cors",
+      headers: {
+        "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ",
+        "Content-Type": "application/json"
+      }})
     .then(res => res.json())
     .then(data => setCoffeeData(data))
   }
