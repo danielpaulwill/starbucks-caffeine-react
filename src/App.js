@@ -36,7 +36,13 @@ function App() {
     } else if (filterValue === 'favorite'){
       favFilter()
     } else {
-      fetch('/coffee')
+      fetch("https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee", {
+        method: "GET",
+        // mode: "no-cors",
+        headers: {
+          "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ",
+          "Content-Type": "application/json"
+      }})
       .then(res => res.json())
       .then(data => setCoffeeData(data.filter(coffee => coffee.coffeeCategory === filterValue)))
     }
@@ -50,7 +56,13 @@ function App() {
   }
 
   function favFilter() {
-    fetch('/coffee')
+    fetch("https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee", {
+      method: "GET",
+      // mode: "no-cors",
+      headers: {
+        "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ",
+        "Content-Type": "application/json"
+      }})
     .then(res => res.json())
     .then(data => setCoffeeData(data.filter(coffee => coffee.favorite === true)))
   }

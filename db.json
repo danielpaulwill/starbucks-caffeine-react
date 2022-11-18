@@ -19,7 +19,7 @@
       "caffeineContent": 220,
       "sugarContent": 0,
       "image": "https://raw.githubusercontent.com/danielpaulwill/starbucks-caffeine-react/main/src/assets/dark-roast-iced-coffee-unsweetened.png",
-      "favorite": false,
+      "favorite": true,
       "coffeeCategory": "icedCoffee",
       "price": 4.99,
       "store": "Target"
