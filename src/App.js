@@ -3,7 +3,6 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import Header from './Header';
 import CardList from './CardList';
 import React, { useState, useEffect } from 'react';
-import { createClient } from '@supabase/supabase-js'
 
 function App() {
   const [filterValue, setFilterValue] = useState('start')
