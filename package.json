@@ -2,7 +2,6 @@
   "name": "starbucks-caffeine-react",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3000",
   "dependencies": {
     "@supabase/supabase-js": "^2.1.0",
     "@testing-library/jest-dom": "^5.16.2",
