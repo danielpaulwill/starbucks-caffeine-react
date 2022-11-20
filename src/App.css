@@ -20,6 +20,11 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+.titleLogo {
+  font-family: 'Secular One', sans-serif;
+  color: #006241;
+}
+
 #logo {
   width: inherit;
   height: auto;
@@ -27,6 +32,7 @@
 }
 
 .logoImg {
+  align-items: center;
 }
 
 .form {
