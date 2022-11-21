@@ -22,7 +22,9 @@ function App() {
         "Content-Type": "application/json"
       }})
     .then(res => res.json())
-    .then(data => setCoffeeData(data))
+    .then(data => {
+      setCoffeeData(data.sort((firstCoffee, secondCoffee) => firstCoffee.id - secondCoffee.id))
+    })
   }
 
   useEffect(() => {
