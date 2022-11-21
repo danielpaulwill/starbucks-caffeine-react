@@ -24,7 +24,6 @@ function CoffeeCard({ coffee }) {
   }
 
   function favButtonSwitch() {
-    // setFavButton(favButton => !favButton)
     fetch(`https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee?id=eq.${coffee.id}`, {
       method: "PATCH",
       // mode: "no-cors",
@@ -35,10 +34,17 @@ function CoffeeCard({ coffee }) {
         "Prefer": "return=representation",
       },
       body: JSON.stringify({
-      favorite: (!coffee.favorite)}),
+        favorite: (coffee.favorite = !coffee.favorite)}),
+      })
+      .then(res => {
+        if (res.ok) {
+          res.json().then(data => {
+      setFavButton(favButton => !favButton)
+      console.log(data[0])
+        })
+      }
     })
-    .then(res => res.json())
-    .then(data => setFavButton(data.favorite))
+    
   }
 
   return (
