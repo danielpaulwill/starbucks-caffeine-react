@@ -24,20 +24,21 @@ function CoffeeCard({ coffee }) {
   }
 
   function favButtonSwitch() {
-    setFavButton(favButton => !favButton)
-    fetch(`https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee/${coffee.id}`, {
+    // setFavButton(favButton => !favButton)
+    fetch(`https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee?id=eq.${coffee.id}`, {
       method: "PATCH",
       // mode: "no-cors",
       headers: {
         "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ",
-        "Content-Type": "application/json",
         "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ",
+        "Content-Type": "application/json",
+        "Prefer": "return=representation",
       },
       body: JSON.stringify({
-      favorite: (coffee.favorite = !coffee.favorite)}),
+      favorite: (!coffee.favorite)}),
     })
     .then(res => res.json())
-    .then(data => console.log(data.favorite))
+    .then(data => setFavButton(data.favorite))
   }
 
   return (
