@@ -9,10 +9,6 @@ function App() {
   const [coffeeData, setCoffeeData] = useState([])
   const [crazyColors, setCrazyColors] = useState(false)
 
-  // const supabaseUrl = 'https://jetukdejlrbsfrtozagr.supabase.co'
-  // const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ"
-  // const supabase = createClient(supabaseUrl, supabaseKey)
-
   function initFetch() {
     fetch("https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee", {
       method: "GET",
@@ -40,14 +36,17 @@ function App() {
     } else {
       fetch("https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee", {
         method: "GET",
-        // mode: "no-cors",
         headers: {
           "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ",
           "Content-Type": "application/json",
           "Accept": "application/json"
       }})
       .then(res => res.json())
-      .then(data => setCoffeeData(data.filter(coffee => coffee.coffeeCategory === filterValue)))
+      .then(data => {
+        let filteredData = data.filter(coffee => coffee.coffeeCategory === filterValue)
+        let sortedData = filteredData.sort((firstCoffee, secondCoffee) => firstCoffee.id - secondCoffee.id)
+        setCoffeeData(sortedData)
+      })
     }
   }, [filterValue])
 
@@ -67,7 +66,13 @@ function App() {
         "Content-Type": "application/json"
       }})
     .then(res => res.json())
-    .then(data => setCoffeeData(data.filter(coffee => coffee.favorite === true)))
+    .then(data => {
+      let filteredData = data.filter(coffee => coffee.favorite === true)
+      let sortedData = filteredData.sort((firstCoffee, secondCoffee) => firstCoffee.id - secondCoffee.id)
+      setCoffeeData(sortedData)
+    })
+
+
   }
 
   function handleColorChange() {
