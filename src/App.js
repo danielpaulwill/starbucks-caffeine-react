@@ -12,7 +12,6 @@ function App() {
   function initFetch() {
     fetch("https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee", {
       method: "GET",
-      // mode: "no-cors",
       headers: {
         "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ",
         "Content-Type": "application/json"
@@ -23,12 +22,13 @@ function App() {
     })
   }
 
+  // First data fetch after app loads
   useEffect(() => {
     initFetch()
   }, [])
   
+  // Handles setting the coffeeData based on the filterValue
   useEffect(() => {
-    // Handles setting the coffeeData based on the filterValue
     if (filterValue === 'start'){
       initFetch()
     } else if (filterValue === 'favorite'){
@@ -57,10 +57,10 @@ function App() {
     setFilterValue(e.target.value)
   }
 
+  // Fetches fresh data and filters out all non favorite beverages
   function favFilter() {
     fetch("https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee", {
       method: "GET",
-      // mode: "no-cors",
       headers: {
         "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpldHVrZGVqbHJic2ZydG96YWdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Njg2NTE5MTEsImV4cCI6MTk4NDIyNzkxMX0.UQFWRGBjPys3q5xwcqNaIDw_nS7djcbtu49NOtmeztQ",
         "Content-Type": "application/json"
@@ -71,8 +71,6 @@ function App() {
       let sortedData = filteredData.sort((firstCoffee, secondCoffee) => firstCoffee.id - secondCoffee.id)
       setCoffeeData(sortedData)
     })
-
-
   }
 
   function handleColorChange() {
