@@ -6,6 +6,7 @@ function CoffeeCard({ coffee }) {
   const [width, setWidth] = useState()
   const [windowWidth, setWindowWidth] = useState()
 
+  // Workaround for mobile sizing
   useEffect(() => {
     let w = window.innerWidth
     if (w >= 768) {
@@ -19,10 +20,12 @@ function CoffeeCard({ coffee }) {
 
   window.addEventListener("resize", reportWindowSize)
 
+
   function handleInfo() {
     setTextDisplay(textDisplay => !textDisplay)
   }
 
+  // Toggle favorite button on the coffee card
   function favButtonSwitch() {
     fetch(`https://jetukdejlrbsfrtozagr.supabase.co/rest/v1/Coffee?id=eq.${coffee.id}`, {
       method: "PATCH",
