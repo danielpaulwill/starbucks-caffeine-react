@@ -4,13 +4,6 @@ Welcome to Starbucks Confidential. An informational drink app that shows you the
 <p>&nbsp;</p>
 
 
-### Visuals
-
-*gif of app
-*link to video of app?
-<p>&nbsp;</p>
-
-
 ### Description
 When my fist child was born one of the only ways I survived was through my love of coffee. My coffee consumption skyrocketed. I tried energy drinks, I tried soda, I tried tea, but coffee is really the only liquid substance I kept coming back to that is both delicious and satisfies my desire to not fall asleep while holding my newborn.
 
@@ -33,22 +26,16 @@ After initial cloning. Navigate into the project folder and run the following:
 ```
 npm install
 ```
-Once the apps dependencies are installed, run the following code to install the JSON Server.
-```
-npm install -g json-server
-```
 The final step once setup is complete is to run the app.
-```
-json-server --watch db.json
-```
 ```
 npm start
 ```
-Then navigate to http://localhost:3001/
+Then navigate to http://localhost:4000/
 <p>&nbsp;</p>
 
 
 ### Roadmap
+- Another page detailing caffeine facts
 - More filter options
   - High & low caffeine
   - High & low sugar
