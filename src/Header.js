@@ -3,7 +3,7 @@ function Header({ handleSelect, handleClick }) {
   return (
     <div className="container-fluid">
         <div className="row title">
-          <p className="h2 titleLogo">STARBUCKS CONFIDENTIAL</p>
+          <p className="h2 titleLogo">COFFEE CONFIDENTIAL</p>
         </div>
         <div className="row form">
             <div className="col-md-3">
